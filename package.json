@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-with-legacy-openssl": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,8 +42,7 @@
     "@babel/preset-env": "^7.24.5",
     "@babel/preset-react": "^7.24.1",
     "file-loader": "^6.2.0",
-    "source-map-loader": "^5.0.0",
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "source-map-loader": "^5.0.0"
+   
   }
 }
